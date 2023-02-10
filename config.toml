@@ -20,10 +20,10 @@
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "My cool site"
+  title = "逆行的狗"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "This is my cool site"
+  description = "nigo的个人博客"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = []
@@ -45,10 +45,10 @@
       logo = ""
       # title name
       # 标题名称
-      name = "My cool site"
+      name = "逆行的狗"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = ""
+      pre = "🐶"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
@@ -74,7 +74,7 @@
     author = true
     # site creation time
     # 网站创立年份
-    since = 2022
+    since = 2023
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -133,7 +133,7 @@
   # Search config
   # 搜索配置
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["lunr", "algolia"]
     # 搜索引擎的类型 ["lunr", "algolia"]
     type = "lunr"
@@ -181,7 +181,7 @@
       title = ""
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "This is my cool site"
+      subtitle = "有一只狗在逆行奔跑"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -201,7 +201,7 @@
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = ""
+    GitHub = "nigo81"
     Linkedin = ""
     Twitter = ""
     Instagram = ""
@@ -244,7 +244,7 @@
     Strava = ""
     Skype = ""
     Whatsapp = ""
-    Zhihu = ""
+    Zhihu = "tu-jia-bing"
     Douban = ""
     Angellist = ""
     Slidershare = ""
@@ -262,7 +262,7 @@
     Gitea = ""
     XMPP = ""
     Matrix = ""
-    Bilibili = ""
+    Bilibili = "229695603"
     Discord = ""
     DiscordInvite = ""
     Lichess = ""
@@ -273,7 +273,7 @@
     Plume = ""
     HackTheBox = ""
     RootMe= ""
-    Email = ""
+    Email = "tujiabing81@163.com"
     Phone = ""
     RSS = ""
 
@@ -306,7 +306,7 @@
     linkToMarkdown = true
     # whether to show the full text content in RSS
     # 是否在 RSS 中显示全文内容
-    rssFullText = false
+    rssFullText = true
     # Table of the contents config
     # 目录配置
     [params.page.toc]
@@ -428,7 +428,7 @@
         pageSize = 10
         # automatically adapt the current theme i18n configuration when empty
         # 为空时自动适配当前主题 i18n 配置
-        lang = ""
+        lang = "zh-CN"
         visitor = true
         recordIP = true
         highlight = true
@@ -454,7 +454,7 @@
         appId = ""
         # automatically adapt the current theme i18n configuration when empty
         # 为空时自动适配当前主题 i18n 配置
-        languageCode = ""
+        languageCode = "zh-CN"
       # Telegram comments config (https://comments.app/)
       # Telegram comments 评论系统设置 (https://comments.app/)
       [params.page.comment.telegram]
