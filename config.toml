@@ -136,7 +136,7 @@
     enable = true
     # type of search engine ["lunr", "algolia"]
     # 搜索引擎的类型 ["lunr", "algolia"]
-    type = "lunr"
+    type = "algolia"
     # max index length of the chunked content
     # 文章内容最长索引长度
     contentLength = 4000
@@ -156,9 +156,9 @@
     # 是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
     [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+      index = "nigo81.gitee.io"
+      appID = "L2PH9BYQ9X"
+      searchKey = "19987eb6158ae8873649ad30bbb5cea5"
 
   # Home page config
   # 主页信息设置
@@ -275,7 +275,7 @@
     RootMe= ""
     Email = "tujiabing81@163.com"
     Phone = ""
-    RSS = ""
+    RSS = "https://nigo81.gitee.io/index.xml"
 
   # Page global config
   # 文章页面全局配置
