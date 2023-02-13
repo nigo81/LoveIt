@@ -8,6 +8,8 @@
                 </div>
             {{- end -}}
 
+{{- /* busuanzi plugin */ -}}
+{{- partial "plugin/busuanzi.html" (dict "params" .Site.Params.xwi88Cfg.busuanzi "bsz_type" "footer") -}}
             {{- /* Hugo and LoveIt */ -}}
             {{- if ne .Site.Params.footer.hugo false -}}
                 <div class="footer-line">
@@ -49,3 +51,4 @@
         </div>
     </footer>
 {{- end -}}
+
